@@ -15,7 +15,7 @@ import java.util.*;
 @Service(value = "heroService")
 public class HeroServiceImpl implements HeroService {
 
-    private final String pathToJsonFile = "/home/chosotte/IdeaProjects/spring-boot-tutorial/src/main/resources/heroes.json";
+    private final String pathToJsonFile = "/home/chosotte/workspace/server-tour-of-heroes/resources/heroes.json";
 
     @Override
     public Hero updateHero(Hero hero) throws Exception {
